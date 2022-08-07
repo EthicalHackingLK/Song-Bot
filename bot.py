@@ -121,7 +121,7 @@ class Chat:
             try:
                 self.send_audio(file_name)
                 self.delete_message(downloading_message)
-                self.send_message('✅ Sucess!')
+                self.send_message('✅ Sucess! Thank For Use Me.')
                 print ("\nSucess!\n")
             except:
                 print("\nError")
