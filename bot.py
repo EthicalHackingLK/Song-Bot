@@ -41,7 +41,7 @@ class song:
             'postprocessors': [{
                 'key': 'FFmpegExtractAudio',
                 'preferredcodec': 'mp3',
-                'preferredquality': '100',
+                'preferredquality': '256',
             }],
             'prefer_ffmpeg': True
         }
