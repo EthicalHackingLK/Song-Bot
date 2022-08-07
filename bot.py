@@ -67,8 +67,8 @@ class Chat:
                     'to order some song. 🎶\n'
                     '©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ\n'
                     '📝Bot Crated By Kaviru📝\n'
-                    '[ ‌‌‌‌©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ ­ ](https://t.me/slofficialmain)\n'
-                    '[Join Our Main Group](buttonurl:https://t.me/slofficialcommunity)',
+                    '[ ‌‌‌‌©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ ­ ](https://t.me/slofficialmain)'
+                    '[Join Our Main Group](buttonurl:https://t.me/slofficialcommunity)\n',
                     
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
