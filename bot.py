@@ -66,8 +66,7 @@ class Chat:
                     '"*/song* _songian name - music name_"\n\n'
                     'to order some song. 🎶\n'
                     '📝Bot Crated By Kaviru📝\n'
-                    '[ ‌‌‌‌©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ ­ ](https://t.me/slofficialmain)\n'
-                    '[🎬Download🎬](buttonurl:https://t.me/c/1430394161/3319)',
+                    '[ ‌‌‌‌©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ ­ ](https://t.me/slofficialmain)\n❤️‍🔥❤️‍🔥',
                     
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
@@ -113,7 +112,7 @@ class Chat:
             file_name = file_name.replace('"', '')
 
             self.send_message(f"🎵 {song.get_title(self, result)}\n🔗 {song.get_link(self, result)}")
-            downloading_message = self.send_message('⬇️ Downloading Song... \n_(Please Wait.)_\n[🎬Download🎬](buttonurl:https://t.me/c/1430394161/3319)')
+            downloading_message = self.send_message('⬇️ Downloading Song... \n_(Please Wait.)_')
 
             song.download_song(self, file_name, song.get_link(self, result))
 
