@@ -40,7 +40,7 @@ class song:
             'format': 'bestaudio/best',
             'postprocessors': [{
                 'key': 'FFmpegExtractAudio',
-                'preferredcodec': 'mp3',
+                'preferredcodec': 'm4a',
                 'preferredquality': '256',
             }],
             'prefer_ffmpeg': True
@@ -107,7 +107,7 @@ class Chat:
         min_duration, split_count = song.get_duration(self, result)
 
         if int(min_duration) < 30 and split_count < 3:
-            file_name = '\[SLOFFICIAL\] '+ song.get_title(self, result) +'.mp3'
+            file_name = '\[SLOFFICIAL\] '+ song.get_title(self, result) +'.m4a'
             file_name = file_name.replace('"', '')
 
             self.send_message(f"🎵 {song.get_title(self, result)}\n🔗 {song.get_link(self, result)}")
