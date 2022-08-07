@@ -40,8 +40,8 @@ class song:
             'format': 'bestaudio/best',
             'postprocessors': [{
                 'key': 'FFmpegExtractAudio',
-                'preferredcodec': 'm4a',
-                'preferredquality': '256',
+                'preferredcodec': 'mp3',
+                'preferredquality': '100',
             }],
             'prefer_ffmpeg': True
         }
@@ -107,11 +107,11 @@ class Chat:
         min_duration, split_count = song.get_duration(self, result)
 
         if int(min_duration) < 30 and split_count < 3:
-            file_name = '\[SLOFFICIAL]_'+ song.get_title(self, result) +'.m4a'
+            file_name = '\[SLOFFICIAL]_'+ song.get_title(self, result) +'.mp3'
             file_name = file_name.replace('"', '')
 
             self.send_message(f"🎵 {song.get_title(self, result)}\n🔗 {song.get_link(self, result)}")
-            downloading_message = self.send_message('⬇️ Downloading... \n_(this may take a while.)_')
+            downloading_message = self.send_message('⬇️ Downloading Youer Song... \n_(Please Wait.)_')
 
             song.download_song(self, file_name, song.get_link(self, result))
 
@@ -137,10 +137,6 @@ class Chat:
             else:
                 #Valid command
                 self.process_request(user_input)
-
-        else:
-            #Invalid command
-            self.send_message(self.messages['invalid_command'])
 
         pass 
 
