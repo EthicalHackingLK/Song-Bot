@@ -65,7 +65,7 @@ class Chat:
                     '"*/song* _song name_"  or\n'
                     '"*/song* _songian name - music name_"\n\n'
                     'to order some song. 🎶\n*©️KAVIRU NETHSARA*\n'
-                    '‌‌‌‌©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ ­ (https://t.me/slofficialmain)',
+                    '[©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ](https://t.me/slofficialmain)',
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
                     'Try: "*/song* _song name_"\n'
@@ -106,7 +106,7 @@ class Chat:
         min_duration, split_count = song.get_duration(self, result)
 
         if int(min_duration) < 30 and split_count < 3:
-            file_name = '\[SLOFFICIAL\]'+ song.get_title(self, result) +str(randint(0,999999))+'.mp3'
+            file_name = '\[SLOFFICIAL] '+ song.get_title(self, result) +'.m4a'
             file_name = file_name.replace('"', '')
 
             self.send_message(f"🎵 {song.get_title(self, result)}\n🔗 {song.get_link(self, result)}")
