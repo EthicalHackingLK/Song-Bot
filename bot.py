@@ -64,8 +64,9 @@ class Chat:
                     '📩 Send me:\n\n'
                     '"*/song* _song name_"  or\n'
                     '"*/song* _songian name - music name_"\n\n'
-                    'to order some song. 🎶\n*©️KAVIRU NETHSARA*\n'
-                    '[©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ](https://t.me/slofficialmain)',
+                    'to order some song. 🎶'
+                    '[©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ](https://t.me/slofficialmain)'
+                    '📝Crated By Kaviru📝',
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
                     'Try: "*/song* _song name_"\n'
