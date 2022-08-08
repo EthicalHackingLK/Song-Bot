@@ -62,7 +62,7 @@ class Chat:
         self.messages = {
             'start':'🤖 *Hello*, '+ self.user_name +'\n\n'
                     '📩 Send me:\n\n'
-                    '"*/song* _song name_"  or\n'
+                    '"*/song* _song name_"  or\n\n'
                     '"*/song* _songian name - music name_"\n\n'
                     'to order some song. 🎶\n\n'
                     '📝Bot Crated By Kaviru📝\n\n'
