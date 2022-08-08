@@ -112,7 +112,7 @@ class Chat:
             file_name = file_name.replace('"', '')
 
             self.send_message(f"🎵 {song.get_title(self, result)}\n🔗 {song.get_link(self, result)}")
-            downloading_message = self.send_message('⬇️ Downloading Song.. \n_(Please Wait.)_')
+            downloading_message = self.send_message('📥* Downloading Song.. *📥\n_(Please Wait.)_')
 
             song.download_song(self, file_name, song.get_link(self, result))
 
