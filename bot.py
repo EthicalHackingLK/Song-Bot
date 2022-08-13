@@ -63,9 +63,9 @@ class Chat:
             'start':'🤖 *Hello*, '+ self.user_name +'\n\n'
                     '📩 Send me:\n\n'
                     '"*/song* _song name_"  or\n\n'
-                    '"*/song* _songian name - music name_"\n\n'
+                    '"*/song* _singer name - music name_"\n\n'
                     'to order some song. 🎶\n\n'
-                    '📝Bot Crated By Kaviru📝\n\n'
+                    '📝_Bot Crated By Kaviru_📝\n\n'
                     ' ‌‌‌‌©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ ­ ',
                     
             
