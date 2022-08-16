@@ -82,7 +82,7 @@ class Chat:
 
 
         }
-        if self.user_input == '/start'
+        if self.user_input == 'start'
     reply_text("Good")
 
         self.check_input(self.user_input, msg)
