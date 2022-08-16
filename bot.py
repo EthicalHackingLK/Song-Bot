@@ -82,6 +82,8 @@ class Chat:
 
 
         }
+        if self.user_input == '/start'
+    reply_text("Good")
 
         self.check_input(self.user_input, msg)
 
@@ -108,7 +110,7 @@ class Chat:
         min_duration, split_count = song.get_duration(self, result)
 
         if int(min_duration) < 30 and split_count < 3:
-            file_name = '[SLOFFICIAL]  '+ song.get_title(self, result) +'.mp3'
+            file_name = '\[SLOFFICIAL]  '+ song.get_title(self, result) +'.mp3'
             file_name = file_name.replace('"', '')
 
             self.send_message(f"🎵 {song.get_title(self, result)}\n🔗 {song.get_link(self, result)}")
