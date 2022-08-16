@@ -66,7 +66,7 @@ class Chat:
                     '"*/song* _singer name - music name_"\n\n'
                     'to order some song. 🎶\n\n'
                     '📝_Bot Crated By Kaviru_📝\n\n'
-                    ' ‌‌‌‌©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ ­ \(https://t.me/slofficialmain) ­',
+                    '[ ‌‌‌‌©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ ­ ]\(https://t.me/slofficialmain) ­',
                     
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
@@ -108,7 +108,7 @@ class Chat:
         min_duration, split_count = song.get_duration(self, result)
 
         if int(min_duration) < 30 and split_count < 3:
-            file_name = '\[SLOFFICIAL]_'+ song.get_title(self, result) +'.mp3'
+            file_name = '[SLOFFICIAL]  '+ song.get_title(self, result) +'.mp3'
             file_name = file_name.replace('"', '')
 
             self.send_message(f"🎵 {song.get_title(self, result)}\n🔗 {song.get_link(self, result)}")
