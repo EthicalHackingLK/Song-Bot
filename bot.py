@@ -66,7 +66,7 @@ class Chat:
                     '"*/song* _singer name - music name_"\n\n'
                     'to order some song. 🎶\n\n'
                     '📝_Bot Crated By Kaviru_📝\n\n'
-                    '[ ‌‌‌‌©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ ­ ](https://t.me/slofficialmain)',
+                    '[ ‌‌‌‌©ꜱʟ ᴏꜰꜰɪᴄɪᴀʟ ­ ](https://t.me/slofficialmain)\',
                     
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
