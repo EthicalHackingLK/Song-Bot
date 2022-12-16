@@ -13,7 +13,7 @@
   "env": {
     "TOKEN": {
       "description": "Make a bot at BotFather http://telegram.dog/BotFather and get the token of your bot",
-      "value": "",
+      "value": "5452648544:AAFhZ8kDvn5Qeb_uZtmrcrFvA9XlIn79MDw5452648544:AAFhZ8kDvn5Qeb_uZtmrcrFvA9XlIn79MDw",
       "required": true
     }
   }
