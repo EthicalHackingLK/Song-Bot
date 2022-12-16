@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "tsc",
-    "start": "bot.py",
+    "start": "python bot.py",
     "dev": "env-cmd python bot.py",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
